@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Register form</title>
+</head>
+<body>
+    <form action= "store.jsp" methd="post">
+        <table align="center">
+        	<tr>
+        		<th colspan="2" style="padding: 20px">Registration Page</th>
+        	</tr>
+            <tr>
+                <td>
+                    Name:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Name" name="rname">
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    password:
+                </td>
+                <td>
+                    <input type="password" placeholder="password" name="pwd">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type="radio" name="gend" value="Male">Male
+                    <input type="radio" name="gend" value="Female">Female
+                    
+                 </td>
+            </tr>
+            <tr>
+                <td>
+                    Email:
+                </td>
+                <td>
+                    <input type="Mail"placeholder="Email" name="em">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone Number:
+                </td>
+                <td>
+                    <select>
+                        <option> 988</option>
+                        <option> 967</option>
+                        <option> 976</option>
+                        <option> 975</option>
+                        <option> 984</option>
+                        <option> 982</option>
+                        <option> 988</option>
+                    </select>
+                    <input type="phone" placeholder="84960****" name="phn">              
+                  </td>
+                </tr>
+                <tr>
+                	<td></td>
+                    <td style="padding: 20px">
+                    	<input type="reset" value="Clean">&nbsp
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+        </table>
+    </form>
+
+</body>
+</html>
