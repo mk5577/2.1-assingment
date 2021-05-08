@@ -23,4 +23,4 @@
 
 ?>
 
-<a href="/megna/index.php">Data</a>
+<a href="index.php">Data</a>
