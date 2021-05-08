@@ -1,7 +1,7 @@
 
 					<div>
 						<h1>Assignment 2.1 </h1>
-						<table>
+						<table algin="center">
 						<thead>
 							<tr><th>Name</th><th>Password</th><th>Gender</th><th>Email</th><th>Phone No</th></tr>
 						</thead>
