@@ -43,4 +43,4 @@
                         </div>
                 </div>
         </div>
-<a href="/megna/form.php">Form</a>
+<a href="form.php">Form</a>
