@@ -25,7 +25,7 @@
 		}
 	}else{
 		?>
-		<h1>Data Not Found<a href="/form.php">add data</a></h1>
+		<h1>Data Not Found<a href="form.php">add data</a></h1>
 		<?php
 	}
 
